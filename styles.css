@@ -107,7 +107,7 @@ h1:first-of-type {
 }
 
 
-/*content*/
+/*content->home*/
 
 img {
     display: block;
@@ -125,6 +125,22 @@ p {
 h4 {
     text-align: center;
     margin-top: 0;
+}
+
+.home {
+    border: 1px solid blue;
+    border-spacing: 0;
+}
+
+.home td {
+    border: 1px solid green;
+    min-width: 150px;
+    text-align: center;
+    height: 30px;
+}
+
+.home tr:first-child {
+    height: 50px;
 }
 
 
@@ -162,6 +178,12 @@ h4 {
     height: 60px;
 }
 
+.catalog p:first-of-type::first-letter {
+    color: goldenrod;
+    font-family: URW Chancery L, cursive;
+    font-size: 18px;
+}
+
 .catalog .btn {
     margin: 3px;
     background-color: #fcae41;
@@ -185,14 +207,14 @@ h4 {
     background-color: #eaeaea;
 }
 
-.subcatalog p:nth-of-type(2) {
+.subcatalog p:nth-of-type(1) {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.subcatalog p:nth-of-type(3) {
+.subcatalog p:nth-of-type(2) {
     position: relative;
     width: 300px;
     height: 300px;
@@ -211,13 +233,31 @@ h4 {
     object-fit: cover;
 }
 
-.subcatalog ul:nth-of-type(2) li {
+.subcatalog img:hover {
+    outline: 3px solid #f8f8f8;
+}
+
+.subcatalog > ul:nth-of-type(1) li {
     font-size: 14px;
     line-height: 30px;
     list-style-image: url(../img/li_icon.png);
 }
 
-.subcatalog p:nth-of-type(4) {
+.subcatalog table {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+.subcatalog td {
+    border: 1px solid black;
+    min-width: 30px;
+}
+
+.subcatalog td:first-child {
+    text-align: center;
+}
+
+.subcatalog p:nth-of-type(3) {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -254,6 +294,32 @@ h4 {
 #feedback [name="question"] {
     height: 200px;
     max-width: 600px;
+}
+
+#feedback input,
+#feedback textarea {
+    color: #555;
+    font-weight: 600;
+    border: 1px solid #999;
+}
+
+#feedback input:focus {
+    color: #222;
+    font-weight: 600;
+    background-color: antiquewhite;
+}
+
+#feedback textarea:focus {
+    font-weight: 600;
+}
+
+#feedback textarea {
+    text-transform:  capitalize;
+}
+
+#feedback input:last-of-type:hover {
+    background-color: #555;
+    color: #f8f8f8;
 }
 
 

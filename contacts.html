@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="styles.css"> </head>
 
 <body class="contact">
-    <h1><b>Магазин игрушек RIK</b></h1>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a>
-            <li><a href="catalog.html">&equiv;&nbsp;Каталог&nbsp;&nbsp;</a>
-                <ul class="sub_menu">
-                    <li><a href="catalog/toycar.html">Машинка</a></li>
-                    <li><a href="catalog/unicorn.html">Единорог</a></li>
-                    <li><a href="catalog/doll.html">Кукла</a></li>
-                </ul>
-                <li selected>Контакты</ul>
-     <p class="navigation"><a href="index.html">главная</a> &gt; контакты</p>
+    <div class="header">
+        <h1><b>Магазин игрушек RIK</b></h1>
+        <ul class="menu">
+            <li><a href="index.html">Главная</a>
+                <li><a href="catalog.html">&equiv;&nbsp;Каталог&nbsp;&nbsp;</a>
+                    <ul class="sub_menu">
+                        <li><a href="catalog/toycar.html">Машинка</a></li>
+                        <li><a href="catalog/unicorn.html">Единорог</a></li>
+                        <li><a href="catalog/doll.html">Кукла</a></li>
+                    </ul>
+                    <li selected>Контакты</ul>
+        <p class="navigation"><a href="index.html">главная</a> &gt; контакты</p>
+    </div>
     <p><b>Наш телефон: </b>(+44) 893 388 93 93</p>
     <p><b>Вы можете найти нас за адресом: </b>Польша, г. Лодзь, ул. Огородовая 23/239 </p>
     <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3A85200de5e99d2908aa7ea3dd6d9a62dca4b87c997c743f9a69097b46581ad2c9&amp;source=constructor" width="100%" height="240" frameborder="0"></iframe>
@@ -26,22 +28,25 @@
     <p>Хотите задать вопрос, или у вас есть предложение? Оставьте свои контакты, и вопрос и мы судовольствием вам на него ответим.</p>
     <form action="#" id="feedback">
         <fieldset>
-            <legend>Обратная связь</legend><p>
-            <br>Ваша электронная почта
-            <br>
-            <input type="email" name="mail" placeholder="Ваш e-mail">
-            <br>Тема
-            <br>
-            <textarea name="name_question" rows="1" cols="120" placeholder="Тема вопроса"></textarea>
-            <br>
-            <br>
-            <textarea name="question" rows="8" cols="120" placeholder="Ваш вопрос или предложение"></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Отправить"></p> </fieldset>
+            <legend>Обратная связь</legend>
+            <p>
+                <br>Ваша электронная почта
+                <br>
+                <input type="email" name="mail" placeholder="Ваш e-mail">
+                <br>Тема
+                <br>
+                <textarea name="name_question" rows="1" cols="120" placeholder="Тема вопроса"></textarea>
+                <br>
+                <br>
+                <textarea name="question" rows="8" cols="120" placeholder="Ваш вопрос или предложение"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Отправить"> </p>
+        </fieldset>
     </form>
-    
-    <p class="sub_footer">&copy;&nbsp;Все&nbsp;права&nbsp;защищены</p>
+    <div class="footer">
+        <p class="sub_footer">&copy;&nbsp;Все&nbsp;права&nbsp;защищены</p>
+    </div>
 </body>
 
 </html>
