@@ -5,8 +5,15 @@
     <meta charset="UTF-8">
     <title>INTERIOR</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> </head>
-
+    <link rel="stylesheet" href="styles.css"> 
+    <!--For message "Sorry. Page in development!"-->
+    <script>
+        function indevelop() {
+            alert("Sorry. Page in development!");
+        }
+    </script>
+</head>
+    
 <body>
     <div class="container">
         <div class="slider slider-padding">
@@ -15,13 +22,13 @@
                <span class="logo"></span>
                 </a>
                 <ul class="menu">
-                    <li class="menu-list menu-active"><a href="" class="menu-list-link  menu-list-active">HOME</a></li>
-                    <li class="menu-list"><a href="" class="menu-list-link">PRODUCTS</a></li>
-                    <li class="menu-list"><a href="" class="menu-list-link">HISTORY</a></li>
-                    <li class="menu-list"><a href="" class="menu-list-link">SHOWROOM</a></li>
-                    <li class="menu-list"><a href="" class="menu-list-link">CONTACT</a></li>
-                    <li class="menu-list">
-                        <a href="" class="menu-list-link">
+                    <li class="menu-list menu-active non-clicked"><a href="#" class="menu-list-link  menu-list-active">HOME</a></li>
+                    <li class="menu-list"><a href="#" class="menu-list-link" onclick="indevelop()">PRODUCTS</a></li>
+                    <li class="menu-list"><a href="#" class="menu-list-link" onclick="indevelop()">HISTORY</a></li>
+                    <li class="menu-list"><a href="#" class="menu-list-link" onclick="indevelop()">SHOWROOM</a></li>
+                    <li class="menu-list"><a href="contact.html" class="menu-list-link">CONTACT<span class="menu-contact-new">NEW</span></a></li>
+                    <li class="menu-list" onclick="indevelop()">
+                        <a href="#" class="menu-list-link">
                         <span class="slider-search-img"></span>
                         </a>
                     </li>
@@ -112,7 +119,9 @@
             <div class="slider-mobile-app-tag">mobile app</div>
             <div class="slider-mobile-app-name">Find. Follow. Favorite. Discover brands on the go.</div>
             <div class="slider-mobile-app-details">Save your favorites and share your style.</div> <img src="img/slider-mobile-app-app-store.png" alt="" class="slider-mobile-app-app-store cursor-pointer slider-img-hover"><img src="img/slider-mobile-app-google-play.png" alt="" class="slider-mobile-app-google-play cursor-pointer slider-img-hover"> </div>
-        <div class="footer">
+        <div class="footer-space"></div>
+    </div>
+    <div class="footer">
             <div class="footer-contact">
                 <div class="footer-tag">Contact Us</div>
                 <div class="footer-contact-links">
@@ -155,7 +164,6 @@
             </div>
             <div class="footer-privacy-policy">Terms &amp; Conditions  / Privacy policy &amp; Cookies</div>
         </div>
-    </div>
 </body>
 
 </html>
