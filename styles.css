@@ -235,7 +235,7 @@ body {
   position: relative;
 }
 .catalog-header-arrow {
-  margin-left: calc(12px - 3.6px);
+  margin-left: 8.4px;
   background-image: url(img/slider-arrow.svg);
   display: inline-block;
   width: 8px;
@@ -311,7 +311,7 @@ body {
   line-height: 21.91px;
   font-weight: 300;
   /*position*/
-  margin-top: calc(23px - 4.955px);
+  margin-top: 18.045px;
   margin-left: 33px;
   margin-right: 33px;
   display: block;
@@ -339,7 +339,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.8px;
   /*position*/
-  margin-left: calc(47px - 1.8px);
+  margin-left: 45.2px;
   margin-top: 228px;
   height: 18px;
 }
@@ -350,7 +350,7 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   /*position*/
-  margin-left: calc(52px - 4px);
+  margin-left: 48px;
   height: 36px;
   margin-top: 13px;
 }
@@ -361,8 +361,8 @@ body {
   font-weight: 300;
   line-height: 24.04px;
   /*position*/
-  margin-left: calc(50px - 4px);
-  margin-right: calc(259px - 4px);
+  margin-left: 46px;
+  margin-right: 255px;
   margin-top: 17px;
   height: 44px;
   overflow: hidden;
@@ -393,7 +393,7 @@ body {
 }
 .promo-btn-img {
   display: inline-block;
-  margin-left: calc(22px - 3.6px);
+  margin-left: 18.4px;
 }
 /*CATALOG TRANDING*/
 .catalog-trending {
@@ -443,7 +443,7 @@ body {
   height: 370px;
   /*to delete space between inline-elements*/
   /*vertical-align: middle;*/
-  margin: calc(15px - 1.8px) 15px;
+  margin: 13.2px 15px;
   /*1.8px - вертикальное растояние между горизонтальными inline-блоками*/
 }
 .catalog-trending-content.catalog-trending-content-1 {
@@ -466,7 +466,7 @@ body {
 }
 /*SLIDER HOD DEAL*/
 .slider-hod-deal {
-  height: calc(800px - 283px);
+  height: 517px;
   background-image: url(img/slider-hod-deal.jpg);
   position: relative;
 }
@@ -488,8 +488,8 @@ body {
   padding: 105px 83px;
 }
 .product-lg {
-  width: calc(570px - 238px);
-  height: calc(570px - 186px);
+  width: 332px;
+  height: 384px;
   display: block;
   background-image: url(img/product-1-lg.jpg);
   float: left;
@@ -528,9 +528,9 @@ body {
   height: 24.04px;
   font-weight: 300;
   /*position*/
-  margin-top: calc(24px - 5.02px);
+  margin-top: 18.98px;
   overflow: hidden;
-  height: calc(38px + 5.02px);
+  height: 43.02px;
   margin-left: -3.5025px;
   margin-right: -3.5025px;
 }
@@ -560,7 +560,7 @@ body {
 .exclusive-btn-img {
   /*position*/
   display: inline-block;
-  margin-left: calc(22px - 3.6px);
+  margin-left: 18.4px;
 }
 .product-sm {
   width: 270px;
